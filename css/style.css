@@ -1,0 +1,77 @@
+body{
+     
+}
+  a:link {
+    text-decoration: none;
+  }
+  
+   a:visited {
+    text-decoration: none;
+  }
+  
+   a:hover {
+    text-decoration: none;
+  }
+  
+   a:active {
+    text-decoration: underline;
+  }
+
+  li {
+      list-style: none;
+  }
+/* slider */
+
+@media (min-width: 768px){
+    .d-md-block {
+        display: block!important;
+        margin-bottom: 90pt;
+        background-color: black;
+        opacity: 0.47;
+        border-radius: 15pt;
+    }
+    .d-md-block > h5 {
+        font-size: 24pt;
+        font-weight: bold;
+    }
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 3pt;
+    margin-bottom: 5pt;
+}
+
+/* navbar > 1154px */
+
+@media (min-width: 1154px){
+    .navbar {
+        padding-right: 80pt;
+        padding-left: 80pt;
+    }
+}
+
+/* button seach */
+
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    width: 100pt;
+}
+.btn-primary {
+    color: #ffffff;
+}
+/* card item */
+.card {
+    margin: 0 auto;
+    padding: 5pt;
+    text-align: center;
+    margin-bottom: 5pt;
+}
+.pagination {
+    margin: 5pt;
+    justify-content: center;
+}
+

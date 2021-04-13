@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <title>Cửa hàng bán hoa</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header style="margin-bottom: 5pt;">
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Hoa Tươi 24h</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">Hoa khai chương</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Bó hoa tươi
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="category.html">Hoa tặng bà, tặng mẹ, tặng cô</a></li>
+                    <li><a class="dropdown-item" href="category.html">Hoa tặng bạn gái, vợ</a></li>
+                    <li><a class="dropdown-item" href="category.html">Hoa tặng bạn bè, đối tác</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">Giỏ/hộp hoa tươi</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hoa cưới
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="category.html">Hoa trang trí</a></li>
+                    <li><a class="dropdown-item" href="category.html">Hoa cô dâu cầm</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Bạn cần tìm gì?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+    </header>
+    <!-- end header -->
+    <div class="container-lg">
+            
+      <!-- start breadcrumb -->
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="category.html">Tên chuyên mục</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tên sản phẩm</li>
+        </ol>
+      </nav>
+      <!-- end breadcrumb -->
+      <!-- start product -->
+      <!-- info product -->
+        <div class="row" style="border: #c5c5c5 solid 1pt; border-radius: 2pt; margin: 5pt; padding: 10pt;">
+            <div class="col-xl-4 col-lg-4 col-md-12">
+                <img src="images/banner_01.jpg" class="img-fluid" alt="Hoa" style="border-radius: 2pt; margin: 5pt;">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12">
+                <h3>Hoa tươi mừng khai chương cửa hàng</h3>
+                <div class="alert alert-info" role="alert">
+                    Giá sản phẩm: <h4>550.000 VND</h4>
+                  </div>
+                <p>Hoa tươi là một món quà không thể thiếu giành cho những ngày khai trương đặc biệt. Chắc chắn những bó hoa tươi sẽ đem đến cho bạn nhiều may mắn và hứng khởi trên chặng đường phía trước.</p>
+                
+                <p>
+                    <span>Số lượng: </span>
+                    <span><input type="number" id="1" value="1" min="1" max="10" /></span>
+                </p>
+                <p><button type="button" class="btn btn-primary">Thêm vào giỏ hàng</button></p>
+                <div class="alert alert-warning" role="alert">
+                    <ul>
+                        <li>Sản phẩm cam kết thông tin giống với mô ta và hình ảnh trên website.</li>
+                        <li>Hỗ trợ đổi size, màu sắc, kích thước miễn phí.</li>
+                        <li>Hỗ trợ nhiều phương thức thanh toán.</li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12">
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">Khuyến mãi</li>
+                    <li class="list-group-item">Miễn phí thiệp khi mua từ 2 sản phẩm trở lên.</li>
+                    <li class="list-group-item">Giảm 10% tất cả hoá đơn trong ngày hôm nay.</li>
+                    <li class="list-group-item">Miễn phí vẫn chuyển với đơn hàng từ 500.000 VND.</li>
+                  </ul>
+            </div>
+        </div>
+        <!-- des product -->
+
+        <div style="margin: 5pt;">
+            <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Mô tả</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Hướng dẫn đặt hàng</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent" style="border: #c5c5c5 solid 1pt; padding: 15pt; border-radius: 2pt;">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p>Hoa tươi – Món quà thân thương và ý nghĩa này ắt hẳn sẽ làm cho trái tim nhiều cô nàng cảm thấy loạn nhịp và hạnh phúc ngất ngây. Dù là người yêu, bạn bè hay bà, cô, mẹ,…Mỗi bông hồng đỏ tươi thắm tượng trưng cho những lời chúc yêu thương chân thành và sâu sắc nhất. Nếu bạn đang băn khoăn không biết nên tặng món quà gì vào dịp sinh nhật một nửa của mình thì Sắc đỏ ngọt ngào chính là quà tặng ý nghĩa và thân thương nhất để bạn gửi đến người ấy!</p>
+                <p>Hoa tươi 24h sở hữu đội ngũ cắm hoa có kinh nghiệm trên 3 năm trong lĩnh vực cắm hoa tươi và cắm hoa nghệ thuật, đảm bảo sự tỉ mỉ và sang tạo cho ra đời những sản phẩm đẹp và sang trọng</p>
+                <p>Tất cả hoa tươi sử dụng tại shop đều nhập từ các vựa hoa tươi uy tín của cả nước, nhằm đem đến chất lượng hoa phục vụ cho các khách hàng khó tính nhất.</p>
+                <p>Nhằm đem đến chất lượng phục vụ tốt nhất, Hoa Tươi 24H đã không ngừng cung cấp chất lượng dịch vụ cũng như chất lượng nhân viên, đảm bảo phụ vụ chuyên nghiệp cho tất cả khách hàng trong và ngoài nước có nhu cầu đặt hoa tươi tại Việt Nam </p>
+                <p>
+                    <ul>
+                        <li>Nhận đặt hàng qua điện thoại 24/24 và 24/7</li>
+                        <li>Miễn phí giao hoa nội thành và thị trấn</li>
+                        <li> Giao hàng nhanh chỉ từ 45 phút</li>
+                        <li>Đặc biệt nhận làm hoa theo yêu cầu của khách hàng, có thể thay đổi màu sắc hoa phù theo yêu cầu</li>
+                        <li>Tặng biển/Thiệp nội dung miễn phí</li>
+                        <li>Cam kết hoa tươi lâu trên 3 ngày. Màu sắc rực rỡ</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <h4>Hướng dẫn đặt hàng trên website</h4>
+                <p><b>Bước 1: </b>Chọn vào sản phẩm mà bạn muốn mua</p>
+                <p><b>Bước 2: </b>Chọn số lượng và nhấn <b>Thêm vào giỏ hàng.</b></p>
+                <p><b>Bước 3: </b>Chờ nhân viên gọi điện xác nhận.</p>
+                <h4>Các phương thức đặt hàng khác</h4>
+                <p>
+                    <ul>
+                        <li>Đặt hàng trực tiếp tại cửa hàng.</li>
+                        <li>Đặt hàng trực tiếp trên website.</li>
+                        <li>Gọi điện trực tiếp qua số điện thoại 0978978900</li>
+                        <li>Đặt hàng qua các mạng xã hội của cửa hàng như: Facebook, Zalo...</li>
+                    </ul>
+                </p>
+                <h4>Hình thức vận chuyển</h4>
+                <p>Quý khách có thể chọn những hình thức vận chuyển được hỗ trợ hoặc lấy trực tiếp tại cửa hàng.</p>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+          </div>
+        </div>
+        
+
+      <!-- end product -->
+        <div style="border: #c5c5c5 solid 1pt; border-radius: 2pt; margin: 5pt; padding: 10pt;">
+              <!-- card start -->
+              <div class="container-lg">
+                <div class="alert alert-primary" role="alert">
+                    <h4>Sản phẩm liên quan</h4>
+                  </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="product.html"><img src="images/banner_01.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                              <a href="product.html"><h5 class="card-title">Card title</h5></a>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Đặt hàng</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="product.html"><img src="images/banner_01.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                              <a href="product.html"><h5 class="card-title">Card title</h5></a>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Đặt hàng</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="product.html"><img src="images/banner_01.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                              <a href="product.html"><h5 class="card-title">Card title</h5></a>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Đặt hàng</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="product.html"><img src="images/banner_01.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                              <a href="product.html"><h5 class="card-title">Card title</h5></a>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Đặt hàng</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            <!-- card end -->
+
+    </div>
+    <!-- end container -->
+
+    <!-- start footer -->
+
+    <footer>
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Danh mục sản phẩm
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hoa khai chương
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="category.html">Hoa khai chương</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Bó hoa tươi
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="category.html">Hoa tặng bà, tặng mẹ, tặng cô</a></li>
+                            <li><a class="dropdown-item" href="category.html">Hoa tặng bạn gái, vợ</a></li>
+                            <li><a class="dropdown-item" href="category.html">Hoa tặng bạn bè, đối tác</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giỏ/hộp hoa tươi
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="category.html">Giỏ/hộp hoa tươi</a></li>
+                            </ul>
+                        </div>
+
+
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hoa cưới
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="category.html">Hoa trang trí</a></li>
+                            <li><a class="dropdown-item" href="category.html">Hoa cô dâu cầm</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Danh sách cửa hàng
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Cửa hàng tại Hà Nội</li>
+                            <li class="list-group-item">Cửa hàng tại Đà Nẵng</li>
+                            <li class="list-group-item">Cửa hàng tại Hồ Chí Minh</li>
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Đơn vị vận chuyển
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <a href="http://ahamove.vn" target="_blank"><img src="https://ahamove.com/wp-content/uploads/2021/02/BrandingLogomoi-01.png" alt="Giao hàng nhanh" height="100pt" ></a>
+                        <a href="http://ghn.vn" target="_blank"><img src="https://theme.hstatic.net/1000376681/1000665239/14/line_avatar1.jpg?v=265" alt="Giao hàng nhanh" height="100pt" ></a>
+                        <a href="http://vnpost.vn" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/eRBJKBmRWmU9u0b51VzES-jsUAVqztKI3GOxXKmy93vQ60N82tn1EpCKiqMmcFk4M1n7ho2vRWbHLworOQfxZDPGOlKEwon06aHZ0gzzoBW6L1n5qfCh44cZM-ClnGw25naN_4h8zKq8tNz7A88BctSe-Xr54L21Rt7LlVcjrNpntnPn7ZuYS-njgLBm99lCc11nUu4J5g" alt="Viettel Post" height="100pt" ></a>
+                        <a href="http://viettelpost.com.vn" target="_blank"><img src="https://viettelpost.com.vn/wp-content/uploads/2021/01/logo-380x270-1.jpg" alt="Giao hàng nhanh" height="100pt" ></a>
+                        <a href="http://giaohangtietkiem.vn" target="_blank"><img src="https://giaohangtietkiem.vn/wp-content/uploads/2015/10/logo.png" alt="Giao hàng tiết kiệm" height="100pt" ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+        </div>
+
+            <p>
+                <center>
+                    <i class="bi bi-youtube" style="color: #FF0000;"></i> 
+                    <i class="bi bi-facebook" style="color: #1877F2;"></i> 
+                    <i class="bi bi-instagram" style="color: #d6249f;"></i> 
+                    <i class="bi bi-twitter" style="color: #00B6F1;"></i> 
+                    <i class="bi bi-google" style="color: #E94235;"></i>
+                </center>
+            </p>
+            <center><p>© Bản quyền thuộc về Thành Trương</p></center>
+        </div>
+
+
+    </footer>
+    <!-- end footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
